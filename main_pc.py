@@ -1,6 +1,6 @@
 # Software utilizado para a camera: Iriun WebCam
 
-#from time import sleep
+from time import sleep
 import cv2
 import numpy as np
 

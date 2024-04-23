@@ -1,6 +1,10 @@
 # Carro Autônomo SENAC
 O projeto do carro autônomo SENAC, veio a partir da **[3ª Competição Brasileira de Veículos Autônomos em Escala](https://www.robocarrace.com.br/)**, tendo o seu público estudantes, makers, empresas, pesquisadores e entusiastas.
 
+<p align="center">
+    <img src=https://www.robocarrace.com.br/wp-content/uploads/2023/11/carros-e1710431384328-850x540.jpeg>
+</p>
+
 ## Como utilizar
  
 Baixe os arquivos usando o comando seguinte no seu terminal
