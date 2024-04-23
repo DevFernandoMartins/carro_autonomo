@@ -26,13 +26,10 @@ def detectar_linha(camera):
             cv2.line(frame,(x1,y1),(x2,y2),(0,255,0),5)
     
             if centro_linha < (centro_tela + 50):
-                print("Esquerda <---") 
                 motores.esquerda()
             elif centro_linha > (centro_tela - 50):
-                print("Direita --->")
                 motores.direita()
             else:
-                print("Reto")
                 motores.frente()
                 
         cv2.imshow('Imagem', frame)

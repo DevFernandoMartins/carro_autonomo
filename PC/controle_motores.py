@@ -3,21 +3,26 @@ motor_d = 0
 
 class Motores:
     def __init__(self):
-        self.motor_e = 0
-        self.motor_d = 0
+        motor_e = 0
+        motor_d = 0
+        print(motor_e,motor_d)
 
     def frente(self):
-        self.motor_e = 100
-        self.motor_d = 100
+        motor_e = 100
+        motor_d = 100
+        print(motor_e,motor_d)
 
     def direita(self):
-        self.motor_e = 100
-        self.motor_d = 75
+        motor_e = 100
+        motor_d = 75
+        print(motor_e,motor_d)
 
     def esquerda(self):
-        self.motor_e = 75
-        self.motor_d = 100
+        motor_e = 75
+        motor_d = 100
+        print(motor_e,motor_d)
 
     def atras(self):
-        self.motor_e = -100
-        self.motor_d = -100
+        motor_e = -100
+        motor_d = -100
+        print(motor_e,motor_d)
